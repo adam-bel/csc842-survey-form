@@ -129,7 +129,7 @@ function phoneExist() {
 		errorText = "Phone number incomplete";
 		return false;	
 	}
-	valuesInput["4"] = "("+phone.value.substring(0, 3)+")"+phone.value.substring(3, 6)+"-"+phone.value.substring(6, 10);
+	valuesInput["4"] = "("+phone.value.substring(0, 3)+") "+phone.value.substring(3, 6)+"-"+phone.value.substring(6, 10);
 	return true;	
 }
 
@@ -213,7 +213,7 @@ function validEmail(){
 	}
 
 	if(output && dotExist){
-		valuesInput["8"] = "mail.value";
+		valuesInput["8"] = mail.value;
 		return true;
 	} else{
 		spans[4].style.display = "inline";
