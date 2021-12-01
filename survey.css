@@ -1,0 +1,228 @@
+body{
+	background-color: #333333;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background-position: fixed;
+}
+/*----------------------------------------------*/
+main {
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+main header {
+	background-color: white;
+}
+main #title {
+	font-weight: bold;
+	font-size: 25px;
+	padding: 5px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+main #instru {
+	font-family: sans-serif;
+	font-size: 14px;
+	border: 0px;
+	font-weight: bold;
+	padding: 5px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+main #thank {
+	font-size: 14px;
+	border: 0px;
+	font-weight: lighter;
+	padding: 5px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+main table {
+	border-top: 1px solid lightgray;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #F3F3F3;
+	border-collapse: collapse; 
+}
+main tr {
+	border-bottom: 1px solid lightgray;
+}
+main td {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+main table .left {
+	width: 60%;
+}
+main table .right {
+	width: 40%;
+}
+main td p {
+	font-family: sans-serif;
+	font-size: 15px;
+	border: 0px;
+}
+main .prompt {
+	font-weight: bold;
+	padding-left: 20%;
+}
+main .error {
+	padding-left: 21%;
+	font-size: 12px;
+	font-weight: lighter;
+	color: red;
+} 
+main input {
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0 auto;
+	width: 80%;
+	line-height: 2em;
+}
+::placeholder {
+	opacity: 0.6;
+	font-size: 11px;
+}
+main #ft {
+	width: 43px;
+}
+main #inch {
+	width: 47px;
+}
+main #street {
+	margin-top: 10px;
+	width: 80%;
+	margin-bottom: 3px;
+}
+main #city {
+	width: 80%;
+	margin-bottom: 3px;
+}
+main #state {
+	width: 20%;
+	margin-bottom: 10px;
+}
+main #zip {
+	width: 40%;
+	margin-bottom: 10px;
+}
+main .faux {
+	display: none;
+	color: red;
+}
+main .multi {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+} 
+main .smallReset {
+	font-size: 15px;
+	color: purple;
+	position: absolute;
+	right: 20px;
+	cursor: pointer;
+}
+main [name="title"] {
+	padding: 0px;
+	margin: 0 auto;
+	width: 10%;
+}
+main [name="services"] {
+	padding: 0px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	width: 10%;
+}
+main [name="budget"] {
+	padding: 0px;
+	margin: 0 auto;
+	width: 10%;
+}
+main label {
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 0px;
+	font-size: 13px;
+}
+main #tosDiv {
+	margin: 0 auto;
+	margin-left: 30px;
+}
+main #tos {
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 10%;
+}
+main #link {
+	font-size: 12px;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+main #cap {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+main img {
+	border: 1px solid black;
+	margin-bottom: 10px;
+	width: 80%;
+}
+main #end {
+	position: relative;
+	height: 80px;
+}
+main #errorMessage {
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	-ms-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+	width: 20%;
+	max-height: 80%;
+	overflow: auto;
+	font-size: 15px;
+	color: darkred;
+	margin: 0 auto;
+	box-shadow: 2px 2px darkred;
+}
+main #reset {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 12px;
+	color: darkred;
+	cursor: pointer;
+	margin: 0 auto;
+}
+main #mit {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin: 0px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: darkred;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	box-shadow: 0px 2px darkred;
+}
+
+
+
